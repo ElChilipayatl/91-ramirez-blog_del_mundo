@@ -1,124 +1,306 @@
+<!-- Nombre completo persona responsable de este tema -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Propuestas Blog</title>
-        <meta  charset="UTF-8">
-        <style>
-            body {
-background-color: #faf2e4;
-margin: 0 15%;
-font-family: sans-serif;
-}
+<html lang="es">
 
-h1 {
-text-align: center;
-font-family: serif;
-font-weight: normal;
-text-transform: uppercase;
-border-bottom: 1px solid #57b1dc;
-margin-top: 30px;
-}
+<head>
+    <!-- añade el conjunto de caracteres latinos -->
+    <meta charset="UTF-8">
+    <title>Mi Tema</title>
+</head>
 
-h2 {
-color: #d1633c;
-font-size: 1em;
-}
+<body>
+    <!-- inicia barra de navegación -->
+    <nav>
+        <ul>
+            <!--tema 1-->
+            <li>
+                <a href="tema1.html">Ander primer tema</a>
+            </li>
+            <!--fin tema 1-->
+            <!--tema 2-->
+            <li>
+                <a href="tema2.html">Ander segundo tema</a>
+            </li>
+            <!--fin tema 2-->
+            <!--tema 3-->
+            <li>
+                <a href="tema3.html">Jacob primer tema</a>
+            </li>
+            <!--fin tema 3-->
+            <!--tema 4-->
+            <li>
+                <a href="tema4.html">Jacob segundo tema</a>
+            </li>
+            <!--fin tema 4-->
+        </ul>
+    </nav>
+    <!-- termina barra de navegación -->
 
-</style>    
+    <!--empieza mi blog-->
+    <section>
+        <!-- Empieza encabezado del blog -->
+        <header>
+            <h1>Videojuegos</h1>
+        </header>
+        <!-- Termina encabezado del blog -->
 
-        </style>
-    </head>
-    <body>
+        <!-- empieza contenido principal -->
+        <main>
 
-        <!--Inicia barra de navegación-->
-        <nav>
-            <ul>
-                <!--tema 1-->
-                <li>
-                    <a href="tema1.html">Ander primer tema</a>
-                </li>
-                <!--fin tema 1-->
-                <!--tema 2-->
-                <li>
-                    <a href="tema2.html">Ander segundo tema</a>
-                </li>
-                <!--fin tema 2-->
-                <!--tema 3-->
-                <li>
-                    <a href="tema3.html">Jacob primer tema</a>
-                </li>
-                <!--fin tema 3-->
-                <!--tema 4-->
-                <li>
-                    <a href="tema4.html">Jacob segundo tema</a>
-                </li>
-                <!--fin tema 4-->
-            </ul>
-        </nav>
-        <!--Fin barra de navegación-->
-        
-        <article>
-            <header>
-                <hgroup>
-                    <!--Título del artículo-->
-                    <h2> <img src="Assets/Images/consola-de-videojuegos.png" alt="Consola" height="35px" width="auto"> Videojuegos</h2>
-                    <!--Fecha en la que se escribió el artículo-->
-                    <h4>04/11/2021</h4>
-                </hgroup>
-            </header>
-            <!--inicia contenido dl artículo-->
+            <!-- inicia entrada: Introducción a mi_tema -->
+            <article>
+                <header>
+                    <hgroup>
+                        <!-- Título del artículo -->
+                        <h2> <img src="Assets/Images/consola-de-videojuegos.png" alt="Buffet" height="35px" width="auto"> Videojuegos</h2>
+                        <!-- Fecha en la que se escribió el artículo -->
+                        <h4>13/02/2022</h4>
+                    </hgroup>
+                </header>
+                <!-- inicia contenido del artículo -->
+                <div>
+                    <h3>Contexto</h3>
+                    <p> Un videojuego es una aplicación interactiva orientada al entretenimiento que, a través de ciertos mandos o controles, permite simular
+                        experiencias en la pantalla de un televisor, una computadora u otro dispositivo electrónico. Los videojuegos se diferencian de otras formas de entretenimiento, en que deben ser interactivos; es decir, 
+                        los usuarios deben involucrarse activamente con el contenido.</p>
+
+                    <h3>Desarrollo</h3>
+                    <p>El concepto de videojuego se utiliza para referirse a cualquier juego digital interactivo, independientemente de su soporte físico.
+                        Pueden ser muy distintos entre sí, tanto en complejidad como en calidad gráfica y en temática.</p>
+
+                    <h3>Motivación</h3>
+                    <p>Me gustan los videojuegos</p>
+                    <!-- inicia ilustración del artículo -->
+                    <figure>
+                        <img src="Assets/Images/ilustracion_2.png" alt="ilustracion  artículo" height="600px" width="auto">
+                        <figcaption>Ilustración de un videojuego</figcaption>
+                    </figure>
+                    <!-- termina ilustración del artículo -->
+                </div>
+                <!-- Termina contenido del artículo -->
+                <footer>
+                    <!-- Datos del autor -->
+                    <div>
+                        <span>Ander Bruno Ramírez Jiménez</span> <a href="https://www.instagram.com/maxismostacho/" target="_blank">@maxismostacho en instagram</a>
+                    </div>
+                    <!-- fin datos del autor -->
+                    <!-- bibliografía -->
+                    <blockquote>
+                        <p>https://blogs.ceibal.edu.uy/formacion/faqs/que-es-un-videojuego/</p>
+                    </blockquote>
+                    <!-- fin bibliografía -->
+                </footer>
+            </article>
+            <!-- fin entrada: Introducción a mi_tema -->
+
+
+            <!-- inicia entrada: ranking -->
+            <article>
+                <header>
+                    <hgroup>
+                        <!-- Título del artículo -->
+                        <h2> <img src="Assets/Images/consola-de-videojuegos.png" alt="Restaurante buffet" height="35px" width="auto"> Ranking de videojuegos</h2>
+                        <!-- Fecha en la que se escribió el artículo -->
+                        <h4>13/02/2022</h4>
+                    </hgroup>
+                </header>
+                <!-- inicia contenido del artículo -->
+                <div>
+                    <!-- Empieza mi ranking en orden inverso -->
+                    <ol reversed>
+                        <li>Disco Elysium</li>
+                        <li>Half-Life 2</li>
+                        <li>Red Dead Redemption 2</li>
+                        <li>Super Mario 64</li>
+                        <li>Mass Effect 2</li>
+                        <li>Super Metroid</li>
+                        <li>The Legend of Zelda: A Link to the Past</li>
+                        <li>Portal 2</li>
+                        <li>Super Mario World</li>
+                        <li>The Legend of Zelda: Breath of the Wild</li>
+                    </ol>
+                    <!-- Termina mi ranking en orden inverso -->
+                    <p>Este es mi ranking de videojuegos!</p>
+                    <!-- inicia ilustración del artículo -->
+                    <figure>
+                        <img src="Assets/Images/ilustracion_2.png" alt="ilustracion  artículo" height="600px" width="auto">
+                        <figcaption>Ilustración videojuego</figcaption>
+                    </figure>
+                    <!-- termina ilustración del artículo -->
+                </div>
+                <!-- Termina contenido del artículo -->
+                <footer>
+                    <!-- Datos del autor -->
+                    <div>
+                        <span>Ander Bruno Ramírez Jiménez</span> <a href="https://www.instagram.com/maxismostacho/" target="_blank">@maxismostacho en instagram</a>
+                    </div>
+                    <!-- fin datos del autor -->
+                    <!-- bibliografía -->
+                    <blockquote>
+                        <p>https://blog.cocimia.com/tipos-de-buffet/</p>
+                    </blockquote>
+                    <!-- fin bibliografía -->
+                </footer>
+            </article>
+            <!-- fin entrada: ranking -->
+
+            <!-- inicia entrada: sitios oficiales -->
+            <article>
+                <header>
+                    <hgroup>
+                        <!-- Título del artículo -->
+                        <h2> <img src="Assets/Images/www.png" alt="Texto descriptivo de la imagen" height="35px" width="auto"> Mejores sitios webs</h2>
+                        <!-- Fecha en la que se escribió el artículo -->
+                        <h4>13/02/2022</h4>
+                    </hgroup>
+                </header>
+                <!-- inicia contenido del artículo -->
+                <div>
+                    <!-- Empieza mi lista de sitios oficiales -->
+                    <ul>
+                        <li><a href="https://google.com" target="_blank">sitio oficial 1</a></li>
+                        <li><a href="https://google.com" target="_blank">sitio oficial 2</a></li>
+                        <li><a href="https://google.com" target="_blank">sitio oficial 3</a></li>
+                        <li><a href="https://google.com" target="_blank">sitio oficial 4</a></li>
+                        <li><a href="https://google.com" target="_blank">sitio oficial 5</a></li>
+                    </ul>
+                    <!-- Termina mi lista de sitios oficiales -->
+
+                    <p>Estas son las mejores páginas webs.</p>
+                    <!-- inicia ilustración del artículo -->
+                    <figure>
+                        <img src="Assets/Images/www.png" alt="ilustracion  artículo" height="600px" width="auto">
+                        <figcaption>Web</figcaption>
+                    </figure>
+                    <!-- termina ilustración del artículo -->
+                </div>
+                <!-- Termina contenido del artículo -->
+                <footer>
+                     <!-- Datos del autor -->
+                    <div>
+                        <span>Ander Bruno Ramírez Jiménez</span> <a href="https://www.instagram.com/maxismostacho/" target="_blank">@maxismostacho en instagram</a>
+                    </div>
+                    <!-- fin datos del autor -->
+                    <!-- bibliografía -->
+                    <blockquote>
+                        <p>https://www.google.com/</p>
+                    </blockquote>
+                    <!-- fin bibliografía -->
+                </footer>
+            </article>
+            <!-- fin entrada: sitios oficiales -->
+
+            <!-- inicia entrada: video de youtube -->
+            <article>
+                <header>
+                    <hgroup>
+                        <!-- Título del artículo -->
+                        <h2> <img src="Assets/Images/youtube.png" alt="Descripción del ícono" height="35px" width="auto"> Video de Youtube</h2>
+                        <!-- Fecha en la que se escribió el artículo -->
+                        <h4>12/02/2022</h4>
+                    </hgroup>
+                </header>
+                <!-- inicia contenido del artículo -->
+                <div>
+
+                    <!-- inicia video  -->
+                    <figure>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/R9WF8ZtMbrA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <figcaption>Video chistosote</figcaption>
+                    </figure>
+                    <!-- termina Video-->
+
+                    <!-- inician párrafos adicionales -->
+                    <p>Es gandalf bailando en muchas pcs</p>
+                    <p>Muy gracioso</p>
+                    <!-- Terminan párrafos adicionales -->
+                </div>
+                <!-- Termina contenido del artículo -->
+                <footer>
+                    <!-- Datos del autor -->
+                    <div>
+                        <span>Ander Bruno Ramírez Jiménez</span> <a href="https://www.instagram.com/maxismostacho/" target="_blank">@maxismostacho en instagram</a>
+                    </div>
+                    <!-- fin datos del autor -->
+                    <!-- bibliografía -->
+                    <blockquote>
+                        <p>https://www.youtube.com/embed/R9WF8ZtMbrA</p>
+                    </blockquote>
+                    <!-- fin bibliografía -->
+                </footer>
+            </article>
+            <!-- fin entrada: video youtube -->
+
+            <!-- inicia entrada: investigación -->
+            <article>
+                <header>
+                    <hgroup>
+                        <!-- Título del artículo con ícono -->
+                        <h2> <img src="Assets/Images/investigacion.png" alt="Descripción del ícono" height="35px" width="auto"> Investigación acerca de Big Fashion</h2>
+                        <!-- Fecha en la que se escribió el artículo -->
+                        <h4>13/02/2022</h4>
+                    </hgroup>
+                </header>
+                <!-- inicia contenido del artículo -->
+                <div>
+
+                    <p>Big Fashion es un canal de youtube donde varias personas comenn como
+                        <strong>Marranos y piden mucha comida</strong>, <q>Así es, son unos gordos</q> <cite>--Fuentes: yo</cite></p>
+                    <p>Han ido a varios restaurante como, tacos el pata y varios buffets, pero sin duda el mejor ha sido cuando fueron
+                        al lugar de las <strong>tortas gigantes</strong> </p>
+                    <p>En pocas palabras, <strong>Son unos gordos que se atascan de comida.</strong></p>
+
+                    <!-- inicia ilustración del artículo -->
+                    <figure>
+                        <img src="https://i.ytimg.com/vi/FOcoo17zfWw/maxresdefault.jpg" alt="ilustracion 1º artículo" height="600px" width="auto">
+                        <figcaption>Invasión Big Fashion</figcaption>
+                    </figure>
+                    <!-- termina ilustración del artículo -->
+
+                </div>
+                <!-- Termina contenido del artículo -->
+
+                <footer>
+                    <!-- Datos del autor -->
+                    <div>
+                        <span>Ander Bruno Ramírez Jiménez</span> <a href="https://www.instagram.com/maxismostacho/" target="_blank">@maxismostacho en instagram</a>
+                    </div>
+                    <!-- fin datos del autor -->
+                    <!-- bibliografía -->
+                    <blockquote>
+                        <p>https://www.instagram.com/bigandfashion/</p>
+                    </blockquote>
+                    <!-- fin bibliografía -->
+                </footer>
+            </article>
+            <!-- fin entrada: investigación -->
+
+        </main>
+        <!-- termina contenido principal -->
+
+        <!-- empieza barra lateral -->
+        <aside>
+
+        </aside>
+        <!-- termina barra lateral -->
+
+        <!-- empieza el footer -->
+        <footer>
             <div>
-                <h3>Los videojuegos</h3>
-                <p>Un videojuego es una aplicación interactiva orientada
-                    al entretenimiento que, a través de ciertos mandos
-                    o controles, permite simular experiencias en la
-                    pantalla de un televisor, una computadora u
-                    otro dispositivo electrónico.
-                    Los videojuegos se diferencian de otras formaz
-                    de entretenimiento, en que deben ser interactivos;
-                    es decir, los usuarios deben involucrarse activamente 
-                    con el contenido.
-                    El concepto de videojuego se utiliza para referirse a
-                    cualquier juego digital interactivo, independientemente
-                    de su soporte físico.</p>
-            <!--Inicia Video-->
-            <figure>
-                <iframe width="899" height="506" src="https://www.youtube.com/embed/bGJ2KJlCqCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <figcaption>
-                    Es big fashion, uno de los mejores
-                    Canales de comida. Comen como cerdos y
-                    están gorditos
-                </figcaption>
-            </figure>
-            <!--Termina Video-->5
-            <!--Inicia ilustración del artículo-->
-            <figure>
-                <img src="Assets/Images/ilustracion_2.png" alt="Ilustración 1° artículo" height="600px" width="auto">
-                <figcaption>Televisor</figcaption>
-            </figure>
-            <!--Termina ilustración del artículo-->
+                <span>Ander Bruno Ramírez Jiménez</span>
             </div>
-           <!--Termina contenido del artículo-->
-           <footer>
-            <!--Datos del autor-->
             <div>
-                <span>Ander Bruno Ramírez Jiménez</span> <a href="https://www.instagram.com/maxismostacho/" target="_blank">@maxismostacho en instagram</a>
+                <span>Blog creado en <i>Colegio Álamos</i>.</span>
+                <span>Las opiniones contenidas en este proyecto pertenecen a los autores de cada entrada.</span>
             </div>
-            <!--fin datos del autor-->
-            <!--Leyenda-->
             <div>
-                Las opiniones contenidas en este proyecto pertenecen a los autores de cada entrada.
+                <span>Jacob Resendiz</span>
             </div>
-            <!--fin leyenda-->
-            <!--Bibliografía-->
-            <blockquote>
-                <p>https://www.tripadvisor.com.mx/Restaurants-g479232-zfp49-Queretaro_City_Central_Mexico_and_Gulf_Coast.html</p>
-            </blockquote>
-            <!--fin Bibliografía-->
+
         </footer>
-    </article>
-    <!--Fin entrada: Restaurantes buffet-->
-
-
-
+        <!-- termina el footer -->
+    </section>
+    <!--termina mi blog-->
 </body>
+
+</html>
